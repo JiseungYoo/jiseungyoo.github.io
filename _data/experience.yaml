@@ -1,0 +1,36 @@
+experiences:
+
+- place: "University of Maryland, College Park"
+  time: "Aug. 2023 - Present"
+  title: "Ph.D. in Educational policy and leadership"
+  category: "school"
+
+- place: "Ewha Womans University"
+  time: "Mar. 2018 - Aug, 2023"
+  title: "Ph.D. Candidate in Elementary education"
+  subtitle: "South Korea"
+  category: "school"
+
+- place: "Seoul Dong Gyo Elemenary school"
+  time: "Mar. 2022 - Aug. 2023"
+  title: "Public elementary school teacher"
+  subtitle: "South Korea"
+  category: "work"
+
+- place: "Ewha Womans University"
+  time: "Mar. 2015 - Feb, 2017"
+  title: "M.A.  in Elementary education"
+  subtitle: "South Korea"
+  category: "school"
+
+- place: "Seoul Soong Shin Elemenary school"
+  time: "Aug. 2015 - Feb. 2022"
+  title: "Public elementary school teacher"
+  subtitle: "South Korea"
+  category: "work"
+
+- place: "Ewha Womans University"
+  time: "Mar. 2011 - Aug, 2014"
+  title: "B.A.  in Elementary education"
+  subtitle: "South Korea"
+  category: "school"

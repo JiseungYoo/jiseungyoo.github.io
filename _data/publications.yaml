@@ -1,0 +1,45 @@
+papers:
+
+  - title: "Exploring Pre-Service Teachers’ Cognitive Processes and Calibration with an Unsupervised Learning- Based Automated Evaluation System"
+    authors: "<u><b>Jiseung Yoo</b></u>, Jisun Park, Minsu Ha, Chelsea M L Darng"
+    venue: "In process"
+    selected: y
+
+  - title: "Comparative Study on National Language Curriculum Standards Using Keyword Network Analysis: Focusing on the Area of Digital Literacy"
+    authors: "Deul Roh, <u><b>Jiseung Yoo</b></u>, Hyunjin Ok"
+    venue: "In process"
+    selected: y
+
+  - title: "Analyzing the impact of elementary school students’ motivation to use YouTube on YouTube overdependence"
+    authors: " <u><b>Jiseung Yoo</b></u>, Jinyoung Choi, Minjeong Kim"
+    venue: "Journal of Education & Culture"
+    paper_pdf: "https://doi.org/10.24159/joec.2023.29.6.519"
+    selected: y
+
+  - title: "Using natural language processing to analyze elementary teachers’ mathematical pedagogical content knowledge in online community of practice"
+    authors: "<u><b>Jiseung Yoo</b></u>, Min Kyeong Kim"
+    venue: "Contemporary Educational Technology"
+    paper_pdf: "https://doi.org/10.30935/cedtech/13278"
+    selected: y
+
+  - title: "Analysis of the relationship between democratic and collaborative school culture and teachers’ instructional reform: Focusing on the mediating and moderating effects"
+    authors: "<u><b>Jiseung Yoo</b></u>, Jinyoung Choi"
+    venue: "Journal of Educational Innovation Research"
+    paper_pdf: "http://dx.doi.org/10.21024/pnuedi.31.4.202112.21"
+    selected: y
+
+  - title: "Elementary teachers’ use of an educative curriculum document to support teacher learning: Based on 2015 revised national social studies curriculum"
+    authors: "<u><b>Jiseung Yoo</b></u>, Jinyoung Choi"
+    venue: "The Journal of Learner-Centered Curriculum and Instruction"
+    selected: y
+    
+  # - title: "Distill or Annotate? Cost-Efficient Fine-Tuning of Compact Models"
+  #   image: "/assets/publications/2023_dist_or_ann/strategies.png"
+  #   authors: "<b>Junmo Kang</b>, Wei Xu, Alan Ritter"
+  #   venue: "ACL 2023"
+  #   paper_pdf: "https://aclanthology.org/2023.acl-long.622/"
+  #   poster: "/assets/publications/2023_dist_or_ann/poster.pdf"
+  #   slides: "/assets/publications/2023_dist_or_ann/slide.pdf"
+  #   code: "https://github.com/jm-kang/Distill-or-Annotate"
+  #   bibtex: "/assets/publications/2023_dist_or_ann/bibtex.txt"
+  #   selected: y

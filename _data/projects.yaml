@@ -6,7 +6,7 @@ projects: M-Powering Teachers
     selected: y
 
 projects: The limitation of LLMs and the unique quality of human intelligence
-  - title: Limitation of LLMs and the unique quality of human intelligence, and their implication in K-12 education
+  - title: Limitations of LLMs and the unique human aspects, and their implication in K-12 education
     subtitle: 
     thumbnail: "assets/projects/2024_AIHI/aihi.jpg"
     url: 
@@ -22,6 +22,6 @@ projects: Edinstruments
 projects: ASAG
   - title: Teachers’ cognitive processes and calibration with automated scoring system 
     subtitle: Examining how teachers integrate their assessment practices with machine scoring in formative assessments
-    thumbnail: "assets/projects/2023_ASAG/.png"
+    thumbnail: "assets/projects/2023_ASAG/research_design.png"
     url: https://www.github.com/JiseungYoo/
     selected: y

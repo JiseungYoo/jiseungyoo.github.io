@@ -1,27 +1,18 @@
-projects: M-Powering Teachers
+projects:
   - title: M-Powering Teachers
     subtitle: A machine learning tools for instructional measurement and feedback
     thumbnail: "assets/projects/2023_mpwering/mpt_system.png"
     url: https://www.mpoweringteachers.com/
     selected: y
 
-projects: The limitation of LLMs and the unique quality of human intelligence
   - title: Limitation of LLMs and the unique quality of human intelligence, and their implication in K-12 education
     subtitle: 
     thumbnail: "assets/projects/2024_AIHI/aihi.jpg"
     url: 
     selected: y
 
-projects: Edinstruments
   - title: AI-powered information database for educational instruments
     subtitle: Building a RAG with multiple LLM agents for educational instruments information
-    thumbnail: "assets/projects/2024_edinst/edinstruments.png"
+    thumbnail: "assets/projects/2024_edinst/edinstrument.png"
     url: https://edinstruments.org/
-    selected: y
-
-projects: ASAG
-  - title: Teachers’ cognitive processes and calibration with automated scoring system 
-    subtitle: Examining how teachers integrate their assessment practices with machine scoring in formative assessments
-    thumbnail: "assets/projects/2023_ASAG/.png"
-    url: https://www.github.com/JiseungYoo/
     selected: y

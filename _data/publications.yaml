@@ -2,12 +2,21 @@ papers:
 
   - title: "Exploring Pre-Service Teachers’ Cognitive Processes and Calibration with an Unsupervised Learning- Based Automated Evaluation System"
     authors: "<u><b>Jiseung Yoo</b></u>, Jisun Park, Minsu Ha, Chelsea M L Darng"
+<<<<<<< HEAD
     venue: "Accepted"
+=======
+    venue: "SAGE Open"
+    paper_pdf: "https://doi.org/10.1177/21582440241262864"
+>>>>>>> test
     selected: y
 
   - title: "Comparative Study on National Language Curriculum Standards Using Keyword Network Analysis: Focusing on the Area of Digital Literacy"
     authors: "Deul Roh, <u><b>Jiseung Yoo</b></u>, Hyunjin Ok"
+<<<<<<< HEAD
     venue: "R&R"
+=======
+    venue: "Education and Information Technologies (Pre-print)"
+>>>>>>> test
     selected: y
 
   - title: "Analyzing the impact of elementary school students’ motivation to use YouTube on YouTube overdependence"

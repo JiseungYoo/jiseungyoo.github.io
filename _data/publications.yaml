@@ -2,21 +2,14 @@ papers:
 
   - title: "Exploring Pre-Service Teachers’ Cognitive Processes and Calibration with an Unsupervised Learning- Based Automated Evaluation System"
     authors: "<u><b>Jiseung Yoo</b></u>, Jisun Park, Minsu Ha, Chelsea M L Darng"
-<<<<<<< HEAD
-    venue: "Accepted"
-=======
     venue: "SAGE Open"
     paper_pdf: "https://doi.org/10.1177/21582440241262864"
->>>>>>> test
     selected: y
 
-  - title: "Comparative Study on National Language Curriculum Standards Using Keyword Network Analysis: Focusing on the Area of Digital Literacy"
-    authors: "Deul Roh, <u><b>Jiseung Yoo</b></u>, Hyunjin Ok"
-<<<<<<< HEAD
-    venue: "R&R"
-=======
-    venue: "Education and Information Technologies (Pre-print)"
->>>>>>> test
+  - title: "Mapping digital literacy in language education: A comparative analysis of national curriculum standards using text-as-data approach"
+    authors: "Deul Roh*, <u><b>Jiseung Yoo*</b></u>, Hyunjin Ok"
+    venue: "Education and Information Technologies"
+    paper_pdf: "https://doi.org/10.1007/s10639-024-13056-5"
     selected: y
 
   - title: "Analyzing the impact of elementary school students’ motivation to use YouTube on YouTube overdependence"
@@ -37,10 +30,6 @@ papers:
     paper_pdf: "http://dx.doi.org/10.21024/pnuedi.31.4.202112.21"
     selected: y
 
-  - title: "Elementary teachers’ use of an educative curriculum document to support teacher learning: Based on 2015 revised national social studies curriculum"
-    authors: "<u><b>Jiseung Yoo</b></u>, Jinyoung Choi"
-    venue: "The Journal of Learner-Centered Curriculum and Instruction"
-    selected: y
     
   # - title: "Distill or Annotate? Cost-Efficient Fine-Tuning of Compact Models"
   #   image: "/assets/publications/2023_dist_or_ann/strategies.png"

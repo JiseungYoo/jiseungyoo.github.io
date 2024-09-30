@@ -5,7 +5,7 @@ layout: default
 <div class="docs-section" id="about">
   <h5>About</h5>
   <p>
-  Hello! I am a first-year Ph.D. Student at the <a href="https://education.umd.edu//">Teaching and Learning, Policy and Leadership</a> at the <a href="https://umd.edu//">University of Maryland, College Park</a>, advised by <a href="https://www.jingliu.info">Jing Liu</a>.  I gained valuable experience as an elementary school teacher in South Korea's public schools and as a data scientist contributing to many projects.
+  Hello! I am a Ph.D. Student at the <a href="https://education.umd.edu//">Teaching and Learning, Policy and Leadership</a> at the <a href="https://umd.edu//">University of Maryland, College Park</a>, advised by <a href="https://www.jingliu.info">Jing Liu</a>.  I gained valuable experience as an elementary school teacher in South Korea's public schools and as a data scientist contributing to many projects.
   </p>
   <p>
   By leveraging the potential of data science, I will explore the untapped complexities and dynamics within and beyond policy arenas and our education system. 
@@ -13,16 +13,16 @@ layout: default
   </p>
   <ul style="margin-left: 1em; margin-top: -1em; margin-bottom: -1em">
     <li>
-      NLP to quantify knowledge management in online environment
+      Generative AI for Teachers: Balance between personalized and peer-collaborative learning
     </li>
     <li>
-      Critical meta-analysis using computational linguistics
+      Generative AI, Human Intelligence, and K-12 Education: Embodiment, Embeddedness, and Enaction
     </li>
     <li>
-      LLM for education
+      Equity in K-12 education
     </li>
     <li>
-      Online teacher communities
+      Computational Social Science 
     </li>
   </ul>
  <p></p>
@@ -30,16 +30,24 @@ layout: default
 <div class="docs-section">
   <h5>News</h5>
   <div class="col-12 col-md-12 text-md-left no-padding">
+    <b class="bbold" style="color:#fa8072;">Sep 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+    <strong>Paper published!</strong>- Mapping digital literacy in language education: A comparative analysis of national curriculum standards using text-as-data approach @<a href="https://doi.org/10.1007/s10639-024-13056-5"> Education and Information Technologies</a>.
+  </div>
+  <div class="col-12 col-md-12 text-md-left no-padding">
+    <b class="bbold" style="color:#fa8072;">June 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+    <strong>Paper published!</strong>- <a href="https://doi.org/10.1177/21582440241262864"> Teachers’ cognitive processes and calibration with automated scoring system in formative assessment </a>
+  </div>
+  <div class="col-12 col-md-12 text-md-left no-padding">
+    <b class="bbold" style="color:#fa8072;">June 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+    <strong>Proposal accepted!</strong> co-authoring with <a href="https://education.umd.edu/directory/campbell-f-scribner//"> Campbell F. Scribner </a> - The limitation of LLMs and unique human aspects, and their implication in K-12 education
+  </div>
+  <div class="col-12 col-md-12 text-md-left no-padding">
+    <b class="bbold" style="color:#fa8072;">May 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+    <strong>Started summer co-op!</strong> @ <a href="https://edinstruments.org//"> The Annenberg Institute, Brown University </a> - Developing a RAG with LLM educational instruments database system.
+  </div>
+  <div class="col-12 col-md-12 text-md-left no-padding">
     <b class="bbold" style="color:#fa8072;">Oct 2023</b>&nbsp;&nbsp;&nbsp;&nbsp;
-    Our <a href="https://www.mpoweringteachers.com/">M-Powering Teachers(MPT) </a> website which I built has launched!
-  </div>
-  <div class="col-12 col-md-12 text-md-left no-padding">
-    <b class="bbold" style="color:#fa8072;">Aug 2023</b>&nbsp;&nbsp;&nbsp;&nbsp;
-    Started my Ph.D in <a href="https://education.umd.edu/academics/departments/tlpl">UMD TLPL </a> !
-  </div>
-  <div class="col-12 col-md-12 text-md-left no-padding">
-    <b class="bbold" style="color:#fa8072;">Mar 2023</b>&nbsp;&nbsp;&nbsp;&nbsp;
-    My current <a href="https://doi.org/10.30935/cedtech/13278">paper </a> using <b>BERTopic</b> has been published!
+    <a href="https://www.mpoweringteachers.com/"> M-Powering Teachers(MPT) </a> website which I built has launched!
   </div>
 </div>
 <p></p>
@@ -140,50 +148,11 @@ layout: default
       <h6><b><i>( * indicates equal contribution )</i></b></h6>
     </div>
     
-    <!-- <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <div class="row">
-            <div class="four columns">
-              <div class="figure">
-                <img src="{{ paper.image }}" width="100%">
-              </div>
-            </div>
-            <div class="twelve columns">
-              <p class="title"><b>{{ paper.title }}</b></p>
-              <p>{{ paper.authors }}</p>
-              <p><i>{{ paper.venue }}</i></p>
-              <div class="paper-buttons">
-                {% if paper.paper_pdf %}
-                  <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-                {% endif %}
-                {% if paper.poster %}
-                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-                {% endif %}
-                {% if paper.video %}
-                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-                {% endif %}
-                {% if paper.code %}
-                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-                {% endif %}
-                
-                {% if paper.slides %}
-                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-                {% endif %}
-                {% if paper.twitter %}
-                  <a class="button" href="{{ paper.twitter }}" target="_blank">Twitter</a>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-        </div>
-    {% endfor %}
-    </div> -->
     
 </div>
 
 <!-- ========== PROJECTS ========== -->
-<!-- <div class="docs-section" id="projects">
+<div class="docs-section" id="projects">
   <h4>Projects</h4>
 
   <ul class="tab-nav">
@@ -263,7 +232,7 @@ layout: default
   <p>Full CV in <a href={{ "/assets/cv/CV.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
 
   <!-- The Timeline -->
-  <ul class="timeline">
+  <!--<ul class="timeline">
     {% for exp in site.data.experience.experiences %}
     <li>
       {% if exp.category == "work" %}

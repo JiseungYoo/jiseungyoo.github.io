@@ -1,6 +1,31 @@
+<<<<<<< HEAD
 projects:
-  - title: 
+=======
+projects: 
+>>>>>>> test
+  - title: M-Powering Teachers
+    subtitle: A machine learning tools for instructional measurement and feedback
+    thumbnail: "assets/projects/2023_mpwering/mpt_system.png"
+    url: https://www.mpoweringteachers.com/
+    selected: y
+
+<<<<<<< HEAD
+  - title: Limitation of LLMs and the unique quality of human intelligence, and their implication in K-12 education
     subtitle: 
-    thumbnail: 
+=======
+  - title: Limitations of LLMs and the unique human aspects, and their implication in K-12 education
+    subtitle: Sensorimotor, Meta-Reasoning, and Consciousness
+>>>>>>> test
+    thumbnail: "assets/projects/2024_AIHI/aihi.jpg"
     url: 
     selected: y
+
+  - title: AI-powered information database for educational instruments
+    subtitle: Building a RAG with multiple LLM agents for educational instruments information
+    thumbnail: "assets/projects/2024_edinst/edinstrument.png"
+    url: https://edinstruments.org/
+<<<<<<< HEAD
+    selected: y
+=======
+    selected: y
+>>>>>>> test

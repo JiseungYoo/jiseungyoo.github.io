@@ -1,5 +1,18 @@
 papers:
 
+  - title: "The Limits of Large Language Models and the Necessity of Human Cognition in K-12 Education"
+    authors: "<u><b>Jiseung Yoo</b></u>, Campbell F. Scribner"
+    venue: "Theory Into Practice"
+    paper_pdf: "https://doi.org/10.1080/00405841.2025.2528553"
+    selected: y
+
+  - title: "Extracting Research Instruments from Educational Literature Using LLMs"
+    authors: "<u><b>Jiseung Yoo</b></u>, Curran Mahowald, Meiyu Li, Wei Ai"
+    venue: "arxiv"
+    paper_pdf: "https://doi.org/10.1177/21582440241262864"
+    code: "https://github.com/JiseungYoo/EdIE"
+    selected: y
+
   - title: "Exploring Pre-Service Teachers’ Cognitive Processes and Calibration with an Unsupervised Learning- Based Automated Evaluation System"
     authors: "<u><b>Jiseung Yoo</b></u>, Jisun Park, Minsu Ha, Chelsea M L Darng"
     venue: "SAGE Open"

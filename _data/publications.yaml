@@ -9,7 +9,7 @@ papers:
   - title: "Extracting Research Instruments from Educational Literature Using LLMs"
     authors: "<u><b>Jiseung Yoo</b></u>, Curran Mahowald, Meiyu Li, Wei Ai"
     venue: "arxiv"
-    paper_pdf: "https://doi.org/10.1177/21582440241262864"
+    paper_pdf: "https://doi.org/10.48550/arXiv.2505.21855"
     code: "https://github.com/JiseungYoo/EdIE"
     selected: y
 

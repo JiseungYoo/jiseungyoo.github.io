@@ -22,3 +22,9 @@ projects:
     thumbnail: "assets/projects/2025_annotation/annotation-screenshot.png"
     url: https://annotation-weld.vercel.app/
     selected: y
+
+  - title: "More than Words: Modeling What Teachers Praise and How They Praise It"
+    subtitle: "Paper presentation - SREE 2026 & AIME-Con 2026"
+    thumbnail: "assets/projects/2025_praise/figure11-thumb.png"
+    url: "assets/projects/2025_praise/figure11.png"
+    selected: y

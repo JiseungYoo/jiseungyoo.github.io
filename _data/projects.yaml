@@ -5,9 +5,9 @@ projects:
     url: https://www.mpoweringteachers.com/
     selected: y
 
-  - title: Sensorimotor, Meta-Reasoning, and Consciousness
-    subtitle: "A multimodal AI analysis of classroom instruction - 3rd place in the AIAI Challenge by DrivenData"
-    thumbnail: "assets/projects/2024_AIHI/aihi.jpg"
+  - title: A Multimodal AI Analysis of Classroom Instruction
+    subtitle: "Data science competition - the AIAI Challenge by DrivenData"
+    thumbnail: "assets/projects/2024_AIHI/classroom-insights.png"
     url: https://drivendata.co/blog/aiai-winners
     selected: y
 

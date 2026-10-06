@@ -5,7 +5,7 @@ layout: default
 <div class="docs-section" id="about">
   <h5>About</h5>
   <p>
-  Hello! I am a Ph.D. Student at the <a href="https://education.umd.edu//">Teaching and Learning, Policy and Leadership</a> at the <a href="https://umd.edu//">University of Maryland, College Park</a>, advised by <a href="https://www.jingliu.info">Jing Liu</a>.  I gained valuable experience as an elementary school teacher in South Korea's public schools and as a data scientist contributing to many projects.
+  Hello! I am a Ph.D. candidate at the <a href="https://education.umd.edu//">Teaching and Learning, Policy and Leadership</a> at the <a href="https://umd.edu//">University of Maryland, College Park</a>, advised by <a href="https://www.jingliu.info">Jing Liu</a>.  I gained valuable experience as an elementary school teacher in South Korea's public schools and as a data scientist contributing to many projects.
   </p>
   <p>
   By leveraging the potential of data science, I will explore the untapped complexities and dynamics within and beyond policy arenas and our education system. 
@@ -78,73 +78,6 @@ layout: default
 </div>
 <p></p>
 
-
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
-  <h5>Publications</h5>
-
-  <!-- <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/> -->
-  </p>
-
-  <!-- <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul> -->
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-        <div class="paper">
-          <div class="row">
-            <!--
-            <div class="four columns">
-              <div class="figure">
-                <img src="{{ paper.image }}" width="100%">
-              </div>
-            </div>
-            -->
-            <div class="twelve columns">
-              {% if paper.year %}
-                <p><h5>{{ paper.year }}</h5><hr /></p>
-              {% endif %}
-              <p class="title"><b>{{ paper.title }}</b></p>
-              <p>{{ paper.authors }}</p>
-              <p><i>{{ paper.venue }}</i></p>
-              <div class="paper-buttons">
-                {% if paper.paper_pdf %}
-                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
-                {% endif %}
-
-                {% if paper.poster %}
-                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-                {% endif %}
-
-                {% if paper.video %}
-                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-                {% endif %}
-
-                {% if paper.code %}
-                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-                {% endif %}
-                
-                {% if paper.slides %}
-                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-                {% endif %}
-                
-                {% if paper.twitter %}
-                  <a class="button" href="{{ paper.twitter }}" target="_blank">Twitter</a>
-                {% endif %}
-              </div>
-            </div>
-          </div>       
-        </div>
-      {% endfor %}
-      <h6><b><i>( * indicates equal contribution )</i></b></h6>
-    </div>
-    
-    
-</div>
 
 <!-- ========== PROJECTS ========== -->
 <div class="docs-section" id="projects">
@@ -220,13 +153,80 @@ layout: default
 
 </div> -->
 
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h5>Publications</h5>
+
+  <!-- <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/> -->
+  </p>
+
+  <!-- <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul> -->
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <div class="row">
+            <!--
+            <div class="four columns">
+              <div class="figure">
+                <img src="{{ paper.image }}" width="100%">
+              </div>
+            </div>
+            -->
+            <div class="twelve columns">
+              {% if paper.year %}
+                <p><h5>{{ paper.year }}</h5><hr /></p>
+              {% endif %}
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p><i>{{ paper.venue }}</i></p>
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}
+                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                {% endif %}
+
+                {% if paper.poster %}
+                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                {% endif %}
+
+                {% if paper.video %}
+                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                {% endif %}
+
+                {% if paper.code %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+                
+                {% if paper.slides %}
+                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+                {% endif %}
+                
+                {% if paper.twitter %}
+                  <a class="button" href="{{ paper.twitter }}" target="_blank">Twitter</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>       
+        </div>
+      {% endfor %}
+      <h6><b><i>( * indicates equal contribution )</i></b></h6>
+    </div>
+    
+    
+</div>
+
 <!-- ========== Education ========== -->
 <div class="docs-section" id="education">
   <h5>Education</h5>
         <div class="paper">
           <p class="title"><b>University of Maryland, College Park<b style="float:right;">Sep. 2023 - Present</b></b></p>
           
-          <p>Ph.D. Student (advisor: <a href="https://www.jingliu.info">Jing Liu</a>)</p>
+          <p>Ph.D. Candidate (advisor: <a href="https://www.jingliu.info">Jing Liu</a>)</p>
           <p></p>
         </div>
         <div class="paper">

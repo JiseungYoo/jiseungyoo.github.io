@@ -73,6 +73,15 @@ h4 {
   padding: 3px;
 }
 
+/* Phone: smaller profile picture, centered */
+@media (max-width: 549px) {
+  .header img {
+    max-width: 180px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {

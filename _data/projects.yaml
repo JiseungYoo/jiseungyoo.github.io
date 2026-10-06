@@ -5,13 +5,20 @@ projects:
     url: https://www.mpoweringteachers.com/
     selected: y
 
-  - title: Limitations of LLMs and the unique human aspects, and their implication in K-12 education
-    subtitle: Sensorimotor, Meta-Reasoning, and Consciousness
+  - title: Sensorimotor, Meta-Reasoning, and Consciousness
+    subtitle: "A multimodal AI analysis of classroom instruction - 3rd place in the AIAI Challenge by DrivenData"
     thumbnail: "assets/projects/2024_AIHI/aihi.jpg"
+    url: https://drivendata.co/blog/aiai-winners
     selected: y
 
   - title: AI-powered information database for educational instruments
     subtitle: Building a RAG with multiple LLM agents for educational instruments information
     thumbnail: "assets/projects/2024_edinst/edinstrument.png"
-    url: https://edinstruments.org/
+    url: https://arxiv.org/abs/2505.21855
+    selected: y
+
+  - title: Multimodal Data Annotation
+    subtitle: "A web app for multimodal data annotation with audio transcript playback"
+    thumbnail: "assets/projects/2025_annotation/annotation-screenshot.png"
+    url: https://annotation-weld.vercel.app/
     selected: y
